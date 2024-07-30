@@ -15,4 +15,14 @@ This script contains the Flask application used to create an API for accessing t
 ### 3. Daily Data Update
 **File:** `update_data.py`
 
-This script includes the code for a scheduling tool that updates the flu data on a 
+This script includes the code for a scheduling tool that updates the flu data on a daily basis. It ensures that our API and map visualization are always using the most recent data available.
+
+### 4. State Data Database
+**Folder:** `instance`
+
+This folder contains the SQLite3 database (`state_data.db`) that was created to store the state-level flu data. The database is designed to be lightweight and efficient for quick data retrieval.
+
+## Summary
+
+This branch represents the foundational work for data extraction and storage, ensuring that our flu data analysis is based on the most up-to-date information. Joy Ragland led the efforts in this branch, implementing the data extraction scripts, setting up the Flask API, and creating the scheduling tool for daily updates.
+
